@@ -1,0 +1,21 @@
+/*
+ * Only using SLDS classes is preferred, but this small amount of CSS 
+ * is needed for image sizing and list container styling.
+ */
+
+.product-image {
+    max-width: 100%;
+    height: 60px; /* Fixed height for visual consistency */
+    object-fit: contain; /* Ensures the image fits without distortion */
+    display: block;
+}
+
+.product-list-container {
+    border: 1px solid #dddddd; /* Adds subtle border */
+    border-radius: 0.25rem;
+}
+
+.product-item:hover {
+    background-color: #f7f7f7; /* Visual feedback on click */
+    cursor: pointer;
+}
